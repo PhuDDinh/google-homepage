@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.img-container {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.box {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(218, 223, 225, 1);
+    text-align: center;
+}
+.right {
+    float:right;
+    color: gray;
+}
+.left {
+    float: left;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+</style>
+<head>
+    <meta content="Phu's first proj">
+    <title>Google</title>
+</head>
+<body>
+<ul>
+    <li><a href="about">About</a></li>
+    <li><a href="store">Store</a></li>
+    <li style="float:right"><a href="images">Images</a></li>
+    <li style="float:right"><a href="gmail">Gmail</a></li>
+  </ul>
+<div class="img-container">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+</div>
+<div class="box">
+    <input type="search" id="search" placeholder=""/>
+</div>
+<div class="navbar" id="myNavbar">
+    <a class="left" href="advertising">Advertising</a>
+    <a class="left" href="business">Business</a>
+    <a class="left" href="howsearchworks">How Search works</a>
+    <a class="right" href="settings">Settings</a>
+    <a class="right" href="terms">Terms</a>
+    <a class="right" href="privacy">Privacy</a>
+    
+</div>
+</div>
+</body>
+</html>
