@@ -23,12 +23,17 @@ li a {
     text-align: center;
     position: relative;
     top: 200px;
-}
+}    
 .box {
-    width: 100%;
     text-align: center;
     position: relative;
     top: 200px;
+}
+.button {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 600px;
 }
 .navbar {
     position: fixed;
@@ -37,6 +42,7 @@ li a {
     width: 100%;
     background-color: rgba(218, 223, 225, 1);
     text-align: center;
+    display: block;
 }
 .right {
     float:right;
@@ -48,6 +54,7 @@ li a {
     color: gray;
     padding: 20px 0px 0px 20px;
 }
+
 </style>
 <head>
     <meta content="Phu's first proj">
@@ -64,7 +71,7 @@ li a {
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
 </div>
 <div class="box">
-    <input type="search" id="search" placeholder=""/>
+    <input style="height:44px"type="search" id="search" placeholder=""/>
 </div>
 <div class="navbar" id="myNavbar">
     <a class="left" href="advertising">Advertising</a>
@@ -74,5 +81,8 @@ li a {
     <a class="right" href="terms">Terms</a>
     <a class="right" href="privacy">Privacy</a>
 </div>
+<input class="button" type="button" value="Google Search" onclick="return">
+<input class="button"type="button" value="I Feel Lucky" onclick="return googlesearch">
+
 </body>
 </html>
